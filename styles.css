@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Jersey+10&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 1.6rem;
+    background: rgb(145, 115, 246);
+    color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+}
+
+.titre {
+    background: #333;
+ 
+       padding: 10px;
+    min-height: 100px;
+    min-width: 80%;
+    border-radius: 15px;
+    margin: 30px;
+}
+  
+.titre h1 {
+    font-family: "Jersey 10", sans-serif;
+    color: rgb(145, 115, 246);
+    
+ 
+
+    font-size: 4rem;
+    text-shadow: 
+                2px 2px 0px black, 
+               -2px 2px 0px black, 
+                2px -2px 0px black, 
+               -2px -2px 0px black,
+                2px 0px 0px black,
+               -2px 0px 0px black,
+                0px 2px 0px black,
+                0px -2px 0px black;
+  }
+  .app {
+    width: 70%;
+    min-width: 400px;
+    max-width: 800px;
+    background: #333;
+    border-radius: 14px;
+    padding: 20px 40px;
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.307);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .app:hover {
+    transform: scale(1.01);
+  }
+  
+  #header {
+    color: rgb(145, 115, 246);
+  }
